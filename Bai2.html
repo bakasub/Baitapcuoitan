@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<input type="text" id="link">
+<button onclick="displayimg()">Display</button><br>
+<img src="" alt="Kiểm tra lại đường dẫn" id="img">
+<script>
+  function displayimg() {
+    let a = document.getElementById('link').value
+    let b = document.getElementById('img')
+    b.src = a
+  }
+</script>
+</body>
+</html>
